@@ -1,6 +1,14 @@
+# Blog-1: any, unknown, and type narrowing
+
+## Title
+
 If you don't know why any is risky, it is safer.
 
+## Introduction
+
 TypeScript is helpful because our types are checked before running our code. Any checks that but remove. With any, we can perform virtually anything with that value, even if it is incorrect.
+
+## Body Paragraphs
 
 For example:
 let value: any = “Hello”;
@@ -35,5 +43,7 @@ The checkValue function takes a value and returns a string:
 }
 
 Within the if statement block, TypeScript is aware that the value is a string. Then, TypeScript is able to infer what the rest of the value could be: it has to be a number.
+
+## Conclusion 
 
 Therefore any should be avoided unless it is necessary, as it will conceal the error, whereas unknown will require checking of the data before using it. This helps us write cleaner and safer TypeScript code.

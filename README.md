@@ -1,4 +1,8 @@
-Advanced Problem Solving with TypeScript and OOP (Assignment 1)
+# README.md
+
+# Advanced Problem Solving with TypeScript and OOP (Assignment 1)
+
+## Overview
 
 The solutions.ts file has all the coding problem answers from Problem 1 to Problem 7.
 

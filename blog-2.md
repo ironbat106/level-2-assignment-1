@@ -1,6 +1,14 @@
+# Blog-2: Generics
+
+## Title
+
 Why use generics and how they can help us write reusable TypeScript code.
 
+## Introduction
+
 Using generics we can write code that can work with many types and yet retain type safety. This means that when we want to do the same thing with a different data type, we don't have to code it again.
+
+## Body Paragraphs
 
 If we do not have generics, we can write individual functions such as this:
 CreateStringArray(value: string): string[] {
@@ -39,5 +47,7 @@ function addCourse<T>(student: T) {
 const student = addCourse({ id: 1, name: "Alice", grade: "A" });
 
 In this example, the types for id, name and grade are retained in TypeScript. It also adds the course property. Thus we have the ability to obtain reusable code without sacrificing type information.
+
+## Conclusion
 
 We find generics helpful because they help prevent duplicate code, provide flexibility for functions, and preserve strongly-typed code. In actual projects they assist us in constructing functions, interfaces, and classes that are safe and can operate on various data.
